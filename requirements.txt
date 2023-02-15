@@ -31,7 +31,9 @@ kubernetes==23.6.0
 oauthlib==3.2.0
     # via requests-oauthlib
 packaging==21.3
-    # via pytest
+    # via
+    #   pytest
+    #   pytest-rerunfailures
 pluggy==1.0.0
     # via pytest
 py==1.11.0
@@ -55,7 +57,7 @@ pytest==7.1.2
     #   pytest-xdist
 pytest-forked==1.4.0
     # via pytest-xdist
-pytest-rerunfailures==10.2
+pytest-rerunfailures==11.1
     # via -r requirements.in
 pytest-timeout==2.1.0
     # via -r requirements.in
